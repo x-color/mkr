@@ -129,8 +129,15 @@ This options can be set to `line` command only.
 
 ## Install
 
+Prerequisite Tools
+
+- Git
+- Go (at least Go 1.11)
+
 ```bash
-$ go get -u github.com/x-color/mkr
+$ git clone https://github.com/x-color/mkr.git
+$ cd mkr
+$ go install
 ```
 
 ## License
